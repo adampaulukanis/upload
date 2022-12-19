@@ -1,0 +1,36 @@
+@charset "UTF-8";
+:root {
+  --main-bg-color: white;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; /* 18px, where 1rem = 16px */
+  line-height: 1.3;
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+    text-transform:capitalize;
+    text-align:center;
+    background: red;
+}
+#submit {
+    background: red;
+    margin: 1em;
+    padding: 10em;
+}
+input[type="submit"] {
+    background: green;
+    margin: 1em;
+    padding: 10em;
+}

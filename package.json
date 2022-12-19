@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module",
+  "scripts": {
+      "start": "node upload.js"
+  }
+}
